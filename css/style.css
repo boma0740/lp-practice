@@ -8,23 +8,28 @@
 	box-sizing: border-box;
 }
 
+.inner {
+	width: 1100px;
+	height: 100%;
+	margin: 0 auto;
+}
+
 /* header */
 header {
+	position: fixed;
 	width: 100%;
-	height: 78px;
-	background-color: #fff;
 	margin: 0 auto;
 }
 
 .header-menu {
-	width: 80%;
-	margin: 0 auto;
+	height: 78px;
+	background-color: #fff;
 }
 
 .fa-archway {
 	float: left;
 	color: #777;
-	margin: 15px 0px;
+	margin: 15px 100px;
 }
 
 .contact {
@@ -32,7 +37,7 @@ header {
 	background-color: #6ba7eb;
 	font-size: 12px;
 	padding: 12px 14px;
-	margin: 15px 0px;
+	margin: 15px 100px;
 	float: right;
 }
 
@@ -41,31 +46,35 @@ header {
 	transition: .3s;
 }
 
+main {
+	padding-top: 78px;
+}
+
 /* keyvisual */
-.field {
+.keyvisual {
 	height: 935px;
 	background-image: url(../img/image1/image1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+.key-text {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.key-text {
 	text-align: center;
 }
 
-.field h1 {
+.keyvisual h1 {
 	font-size: 65px;
 	font-weight: 700;
 	color: #6ba7eb;
 	margin-bottom: 30px;
 }
 
-.field h2 {
+.keyvisual h2 {
 	font-size: 40px;
 	font-weight: 700;
 	color: #ffffff;
@@ -78,7 +87,7 @@ header {
 }
 
 .work-area {
-	width: 70%;
+	width: 980px;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
@@ -115,28 +124,22 @@ header {
 	background-color: #fff;
 }
 
-.inner {
-	width: 1100px;
-	height: 100%;
-	margin: 0 auto;
-}
-
 .skill-area {
 	display: block;
 	text-align: center;
+	padding-top: 50px;
 	margin: 0 auto;
 }
 
 .skill-area h1 {
 	font-size: 40px;
 	letter-spacing: 10px;
-	padding-top: 50px;
-	margin-bottom: 45px;
+	padding-bottom: 45px;
 	text-align: center;
 }
 
 .grid-area {
-	margin-bottom: 70px;
+	padding-bottom: 70px;
 	display: inline-grid;
 	justify-content: center;
 	grid-template-columns: 300px 300px 300px;
@@ -160,10 +163,14 @@ header {
 	background-color: #d0dfea;
 }
 
+.table-area {
+	padding-top: 50px;
+}
+
 .table-area h1 {
 	font-size: 40px;
 	letter-spacing: 10px;
-	padding: 50px 0;
+	padding-bottom: 50px;
 	text-align: center;
 }
 
