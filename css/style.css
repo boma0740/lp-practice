@@ -19,6 +19,7 @@ header {
 	position: fixed;
 	width: 100%;
 	margin: 0 auto;
+	z-index: 10;
 }
 
 .header-menu {
@@ -122,24 +123,24 @@ main {
 /* skill */
 .skills {
 	background-color: #fff;
+	padding-top: 50px;
+	padding-bottom: 70px;
 }
 
 .skill-area {
 	display: block;
 	text-align: center;
-	padding-top: 50px;
 	margin: 0 auto;
 }
 
 .skill-area h1 {
 	font-size: 40px;
 	letter-spacing: 10px;
-	padding-bottom: 45px;
+	margin-bottom: 45px;
 	text-align: center;
 }
 
 .grid-area {
-	padding-bottom: 70px;
 	display: inline-grid;
 	justify-content: center;
 	grid-template-columns: 300px 300px 300px;
@@ -154,6 +155,7 @@ main {
 
 .grid-area img:hover {
 	opacity: 1;
+	transition: .7s;
 }
 
 /* select plan */
@@ -212,7 +214,6 @@ tr:nth-child(even) {
 }
 
 /*  sns　*/
-
 .sns-area {
 	height: 100%;
 	background-color: #e3f2fd;
@@ -229,6 +230,7 @@ tr:nth-child(even) {
 	flex-basis: 185px;
 	text-align: center;
 	padding: 25px 0;
+	transition: .5s;
 }
 
 .sns li:hover {
