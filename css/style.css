@@ -25,20 +25,20 @@ header {
 .header-menu {
 	height: 78px;
 	background-color: #fff;
+	padding: 15px 100px;
 }
 
 .fa-archway {
 	float: left;
 	color: #777;
-	margin: 15px 100px;
 }
 
 .contact {
+	display: block;
 	color: #ffffff;
 	background-color: #6ba7eb;
 	font-size: 12px;
 	padding: 12px 14px;
-	margin: 15px 100px;
 	float: right;
 }
 
@@ -154,7 +154,7 @@ main {
 }
 
 .grid-area img:hover {
-	opacity: 1;
+	opacity: 1.0;
 	transition: .7s;
 }
 
