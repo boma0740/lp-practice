@@ -22,10 +22,13 @@
 	width: 100%;
 	margin: 0 auto;
 	z-index: 10;
+	padding: 15px 0px;
 }
 
-.header-menu {
-	padding: 15px 0px;
+.header-menu::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .fa-archway {
@@ -86,7 +89,6 @@ main {
 
 /* work */
 .work {
-	height: 100%;
 	background-color: #e3f2fd;
 }
 
@@ -96,16 +98,15 @@ main {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	/* margin: 0 auto; */
 }
 
 .pcimage {
-	margin: 0px 95px;
-	width: 250px;
+	padding: 0px 95px;
+	width: 40%;
 }
 
 .text-area {
-	width: 660px;
+	width: 60%;
 }
 
 .text-area h1 {
@@ -161,7 +162,6 @@ main {
 }
 
 /* select plan */
-
 .plan {
 	height: 466px;
 	padding: 50px 0px;
@@ -183,7 +183,6 @@ main {
 	font-size: 16px;
 	line-height: 26px;
 	border: none;
-	/* margin-bottom: 50px; */
 }
 
 .cell-table th {
@@ -214,7 +213,6 @@ tr:nth-child(even) {
 
 /*  sns　*/
 .sns-area {
-	height: 100%;
 	background-color: #e3f2fd;
 	padding: 200px 0;
 }
