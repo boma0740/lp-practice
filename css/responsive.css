@@ -9,7 +9,10 @@
 	}
 
 	.header-menu {
-		width: 91.6666667vw;
+		/* width: 91.6666667vw; */
+		width: 90%;
+		max-width: 1200px;
+		margin: 0 auto;
 	}
 
 	.keyvisual  {
